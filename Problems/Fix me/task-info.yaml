@@ -1,0 +1,23 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    class Player(val id: Int, name: String) {
+        companion object {
+            val defaultSpeed = 8
+            val maxSpeed = 13
+
+            fun calcMovePenalty(cell: Int) : Int {
+                return defaultSpeed - cell % 3
+            }
+        }
+    }
+
+    fun calculatePlayerSpeed(cell: Int): Int {
+        return Player.Properties.calcMovePenalty(cell)
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9371
+status: Solved
+record: -1

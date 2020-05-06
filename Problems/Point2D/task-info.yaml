@@ -1,0 +1,9 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: // write the Point2D class here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6242
+status: Solved
+record: -1

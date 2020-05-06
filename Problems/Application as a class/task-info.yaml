@@ -1,0 +1,13 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    class Application(val name: String) {
+
+        // write the run method here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6370
+status: Solved
+record: -1

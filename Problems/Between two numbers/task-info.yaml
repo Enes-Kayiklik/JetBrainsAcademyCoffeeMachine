@@ -1,0 +1,16 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    import java.util.*
+
+    fun main(args: Array<String>) {
+        val scanner = Scanner(System.`in`)
+
+        // write your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4671
+status: Solved
+record: -1

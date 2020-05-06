@@ -1,0 +1,11 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    val calendar = createCalendar()
+    // write your code here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6781
+status: Solved
+record: -1

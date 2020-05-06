@@ -1,0 +1,9 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: // declare your enum here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6252
+status: Solved
+record: -1

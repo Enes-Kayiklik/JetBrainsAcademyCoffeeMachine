@@ -1,0 +1,14 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    enum class DangerLevel {
+        HIGH,
+        MEDIUM,
+        LOW
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6251
+status: Solved
+record: -1

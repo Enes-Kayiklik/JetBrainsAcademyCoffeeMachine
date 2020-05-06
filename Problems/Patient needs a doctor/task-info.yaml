@@ -1,0 +1,13 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    class Patient(val name: String) {
+
+        // write the say method here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6368
+status: Solved
+record: -1

@@ -1,0 +1,39 @@
+<b>Danger level</b> <a class=right href="https://hyperskill.org/learn/step/6251">Open on JetBrains Academy</a>
+<br><br>
+<html>
+ <head></head>
+ <body>
+  <p>Given an enumeration named <code class="language-kotlin">DangerLevel</code>.</p> 
+  <p>Add an integer property to store the danger level and ascribe the number to each constant:</p> 
+  <table border="1" cellpadding="1" cellspacing="1" style="width: 200px;"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: center;"><code class="language-kotlin">HIGH</code></td> 
+     <td style="text-align: center;">3</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;"><code class="language-kotlin">MEDIUM</code></td> 
+     <td style="text-align: center;">2</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;"><code class="language-kotlin">LOW</code></td> 
+     <td style="text-align: center;">1</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>Also, you need to add the <code class="language-kotlin">getLevel</code> member function that returns the associated integer number.</p> 
+  <p>After your modifications, the following code is to compile&nbsp;and to work correctly:</p> 
+  <pre><code class="language-kotlin">val high = DangerLevel.HIGH
+val medium = DangerLevel.MEDIUM
+
+println(high.getLevel() &gt; medium.getLevel()) // true</code></pre> 
+  <p>&nbsp;</p>
+  <div class="alert alert-warning">
+   You can't name the property&nbsp;
+   <code class="language-kotlin">level</code> because there is the 
+   <code class="language-kotlin">getLevel</code> function. So, choose another name for the property.
+  </div>
+  <p></p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<a href="https://hyperskill.org/learn/step/6245">Show topic summary</a>

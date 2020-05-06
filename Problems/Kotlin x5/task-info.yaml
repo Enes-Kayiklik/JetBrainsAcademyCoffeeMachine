@@ -1,0 +1,12 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    fun main() {
+        TODO("Remove this line and write your solution here")
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4431
+status: Solved
+record: -1

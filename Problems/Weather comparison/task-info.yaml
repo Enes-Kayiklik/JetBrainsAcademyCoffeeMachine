@@ -1,0 +1,14 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: "class City(val name: String) {\n    var degrees: Int\n}        \n\nfun main()\
+    \ {\n    val first = readLine()!!.toInt()\n    val second = readLine()!!.toInt()\n\
+    \    val third = readLine()!!.toInt()\n    val firstCity = City(\"Dubai\")\n \
+    \   firstCity.degrees = first\n    val secondCity = City(\"Moscow\")\n    secondCity.degrees\
+    \ = second\n    val thirdCity = City(\"Hanoi\")\n    thirdCity.degrees = third\n\
+    \n    //implement comparing here\n    print()\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7369
+status: Solved
+record: -1

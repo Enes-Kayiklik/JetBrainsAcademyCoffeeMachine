@@ -1,0 +1,18 @@
+<b>Board game basics: Player</b> <a class=right href="https://hyperskill.org/learn/step/9369">Open on JetBrains Academy</a>
+<br><br>
+<html>
+ <head></head>
+ <body>
+  <p>In our new board game, we already specified a <code class="language-kotlin">Player</code> class:</p> 
+  <pre><code class="language-kotlin">class Player(val id: Int, val name: String, val hp: Int)</code></pre> 
+  <p>Now we should create a companion object for the&nbsp;<code class="language-kotlin">Player</code>&nbsp;class&nbsp;that implements a <code class="language-kotlin">create</code> method:&nbsp; &nbsp;</p> 
+  <pre><code class="language-kotlin">fun create(name: String): Player</code></pre> 
+  <p>The <code class="language-kotlin">id</code> should be unique. The default player <code class="language-kotlin">hp</code> equals 100.</p> 
+  <p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-559').style.display='inline'"> Hint </button> </p>
+  <div id="hint-559" style="display:none;">
+   For creating a unique id, you can use a special variable that changes&nbsp;its value each&nbsp;function call.
+  </div>
+  <p></p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<a href="https://hyperskill.org/learn/step/9364">Show topic summary</a>

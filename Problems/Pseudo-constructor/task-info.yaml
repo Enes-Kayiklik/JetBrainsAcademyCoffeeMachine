@@ -1,0 +1,10 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: "// class Point3D already declared \nfun createPoint(x: Int, y: Int, z: Int):\
+    \ Point3D {\n    // provide implementation here\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6207
+status: Solved
+record: -1

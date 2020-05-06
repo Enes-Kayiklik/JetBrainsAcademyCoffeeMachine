@@ -1,0 +1,9 @@
+type: code
+custom_name: 'Board game basics: Game'
+files:
+- name: src/Task.kt
+  visible: true
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9370
+status: Solved
+record: -1

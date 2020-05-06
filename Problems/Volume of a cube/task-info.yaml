@@ -1,0 +1,13 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    class Box(var height: Double, var width: Double, var length: Double) {
+
+        // write the getVolume method here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6369
+status: Solved
+record: -1

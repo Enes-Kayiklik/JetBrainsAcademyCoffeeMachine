@@ -1,0 +1,12 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    class City(val name: String) {
+        var population: Int
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7368
+status: Solved
+record: -1
