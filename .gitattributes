@@ -1,0 +1,4 @@
+*.html linguist-detectable=false
+*.yaml linguist-detectable=false
+*.kt linguist-detectable=true
+*.java linguist-detectable=false
